@@ -24,16 +24,35 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+.sbg{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  filter: grayscale(100);
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
 .wrapper {
   position: relative;
   width: 600px;
   height: 400px;
-  background: #fff;
+  background: #ffffff;
   border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.bgvid{
+  position: absolute;
+  top: 0;
+  left: 0;
+  justify-self: center;
+  height: 400px;
+  width: 400px;
+  opacity: 0;
 }
 h1 {
   font-size: 6rem;
