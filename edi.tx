@@ -1,1 +1,3 @@
 edi.innerHTML = '<h1 class="question">Hey  '+name+'</h1>'+'<p class="fade">Do you wanna go out with me?</p>';
+
+  imageSection.innerHTML = '<div class="link-box">' + '<textarea class="link" id="link" type="text">' + 'd4te00.github.io/personalized.html?name=' + personName + '&que=' + questionText + '</textarea>' + '</div>';

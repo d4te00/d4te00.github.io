@@ -10,8 +10,12 @@ submitButton.addEventListener('click', () => {
   const personName = personNameInput.value;
   const questionText = questionTextInput.value;
   infoText.innerHTML = ' ';
-  editSection.innerHTML = '<p>Share this link to '+name+'</p> ';
-  imageSection.innerHTML = '<div class="link-box">' + '<textarea class="link" id="link" type="text">' + 'd4te00.github.io/personalized.html?name=' + personName + '&que=' + questionText + '</textarea>' + '</div>';
+  editSection.innerHTML = '<p>Share this link to '+personName+'</p> ';
+  if (questionText) {
+    imageSection.innerHTML = '<div class="link-box">' + '<textarea class="link" id="link" type="text">' + 'd4te00.github.io/personalized.html?name=' + personName + '&que=' + questionText + '</textarea>' + '</div>';
+  } else {
+    imageSection.innerHTML = '<div class="link-box">' + '<textarea class="link" id="link" type="text">' + 'd4te00.github.io/personalized.html?name=' + personName + '</textarea>' + '</div>';
+  }
   buttonGroup.innerHTML = '<button onclick="myfunc()" class="copbtn" style="margin-left: 0px;">Copy link</button> ';
 });
 
