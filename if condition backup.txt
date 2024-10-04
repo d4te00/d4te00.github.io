@@ -1,0 +1,10 @@
+  if (questionText) {
+    imageSection.innerHTML = '<div class="link-box">' + '<textarea class="link" id="link" type="text">' + 'd4te00.github.io/personalized.html?name=' + personNamereplace + '&que=' + questionTextreplace + '</textarea>' + '</div>';
+  } else {
+    imageSection.innerHTML = '<div class="link-box">' + '<textarea class="link" id="link" type="text">' + 'd4te00.github.io/personalized.html?name=' + personNamereplace + '</textarea>' + '</div>';
+  }
+  buttonGroup.innerHTML = '<button onclick="myfunc()" class="copbtn" style="margin-left: 0px;">Copy link</button> ';
+});
+
+
+HT5JpDEMXijNmG8Fvj0BAat45soZjGhOMz7yFJcUqFwPQD8BWRbyKkbGNLqe
