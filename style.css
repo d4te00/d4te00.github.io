@@ -10,9 +10,36 @@
     font-style: initial;
     text-align: center;
   }
-.temp{
+.boxhr{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 40px;
+    gap: 20px;
+}
+.boxln{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px;
+  border: 2px solid black;
+}
+.btncont{
+  display: flex;
+  width: 150px;
+  height: inherit;
+  font-size: 1.2em;
+  color: #000000;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 2px solid black;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+  align-items: center;
+  justify-content: center;
+}
+a{
+  color: #000000;
 }
